@@ -1,6 +1,7 @@
+
 ---
 name: community-ambassador-playbook
-version: 1.1.0
+version: 1.2.0
 description: |
   You launched an ambassador program. 3 applications. One ghosted after week 2. Should you lower the bar? Offer more perks? Spam influencers? This gives you the complete community & ambassador operations SOP — from pre-launch checklist to recruitment to tiered management to retention to governance. Built from Notion (20M users, real ambassador interviews), AFFiNE (60K stars), Asana, and ClickUp programs. By @WeiYipei.
 
@@ -43,7 +44,7 @@ tags:
 
 # Community & Ambassador Program Playbook — Full SOP
 
-> 🌍 **Language / 语言**: 中文 | English | 日本語 | 한국어
+> 🌍 **Language / 语言**: 中文 | [English](references/en/README.md) | [日本語](references/ja/README.md) | [한국어](references/ko/README.md)
 >
 > Complete SOP for community building and ambassador program operations: pre-launch checklist, 6-step community setup, ambassador recruitment & tiered management, incentive design, event operations, content creation systems, health metrics, and governance. Built from Notion (20M users, real ambassador interviews), AFFiNE (60K GitHub stars), Asana Ambassador, and ClickUp Verified programs.
 
