@@ -1,4 +1,3 @@
-
 ---
 name: community-ambassador-playbook
 version: 1.2.0
@@ -47,6 +46,18 @@ tags:
 > 🌍 **Language / 语言**: 中文 | [English](references/en/README.md) | [日本語](references/ja/README.md) | [한국어](references/ko/README.md)
 >
 > Complete SOP for community building and ambassador program operations: pre-launch checklist, 6-step community setup, ambassador recruitment & tiered management, incentive design, event operations, content creation systems, health metrics, and governance. Built from Notion (20M users, real ambassador interviews), AFFiNE (60K GitHub stars), Asana Ambassador, and ClickUp Verified programs.
+
+
+## 📦 Install
+
+```bash
+npx skills add Gingiris-1031/community-ambassador-playbook
+```
+
+**What you get after installing:**
+- Pre-launch readiness checklist and 6-step community setup SOP
+- Ambassador 4-tier progression system with scoring rubric
+- Churn early-warning system + event operations lifecycle
 
 ---
 
@@ -219,3 +230,15 @@ tags:
 ---
 
 *Built from Notion (20M users), AFFiNE (60K stars), Asana Ambassador, ClickUp Verified. By @WeiYipei.*
+
+
+---
+
+## 🔗 About the Author
+
+**Iris Wei** — Growth consultant for 150+ AI startups. Ex-COO at AFFiNE (69K GitHub stars).
+
+- 🐦 Twitter: [@WeiYipei](https://twitter.com/WeiYipei) — Daily growth tactics
+- 💬 Consulting: [@Iris_carrot on Telegram](https://t.me/Iris_carrot)
+- 🛒 Premium Bundle (all 5 playbooks + templates): [Get on Gumroad ($249)](https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle)
+- 📚 40+ Free Playbooks: [gingiris.tools/skills](https://gingiris.tools/skills/)
