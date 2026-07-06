@@ -1,195 +1,78 @@
----
-license: mit
-tags:
-  - community-management
-  - ambassador-program
-  - community-building
-  - developer-relations
-  - DevRel
-  - community-growth
-  - user-retention
-  - open-source-community
-  - startup-growth
-  - SaaS-growth
-  - content-strategy
-  - user-engagement
-  - community-operations
-  - growth-hacking
-language:
-  - en
-  - zh
-  - ja
-  - ko
-pretty_name: "Community & Ambassador Program Playbook"
----
+# 🤝 Community & Ambassador Program Playbook
 
+> **The complete community & ambassador operations SOP — pre-launch readiness, recruitment, 4-tier progression (Bronze → Platinum), retention, and governance.** Built from real programs at Notion (20M users, first-hand ambassador interviews), AFFiNE (60K GitHub stars), Asana, and ClickUp. By Iris (生姜 Iris), ex-COO @ AFFiNE.
 
-## 一、核心目标与价值主张
+**[English](#english) | [中文](#中文)**
 
-| 维度 | 描述 |
-|-|-|
-| **核心目标** | 相互成就（Mutual Achievement） |
-| **用户侧** | 帮助用户建立个人影响力，最终实现商业变现 |
-| **产品侧** | 社区驱动产品全球扩张，形成用户-内容-产品飞轮 |
-| **运营理念** | 长期陪伴、共同成长，非一次性流量收割 |
+> 📌 **This repository is a distribution mirror.** The canonical, continuously updated source lives in the Gingiris skills monorepo → **[gingiris-skills/skills/community-ambassador-playbook](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/community-ambassador-playbook)**. Issues and contributions happen there.
 
-### 大使的本质
+## 📦 Install
 
-| 传统认知 | 真实本质 |
-|-|-|
-| 品牌宣传员 | 免费外包/CSM/经销商 |
-| 物质奖励驱动 | 成为KOL的机会 + 创始人直接对话 + 变现路径 |
+```bash
+npx skills add Gingiris-1031/community-ambassador-playbook
+# or
+clawhub install community-ambassador-playbook
+```
 
 ---
 
-## 二、启动前置条件
+## English
 
-### Checklist（全部满足才启动）
+### What Is This?
 
-| ☐ | 条件 |
-|-|-|
-| ☐ | 内部全员使用自家产品 |
-| ☐ | 产品已嵌入工作流 |
-| ☐ | 产品达到"可用"状态 |
-| ☐ | 有内容承载能力 |
-| ☐ | Roadmap可对外 |
-| ☐ | 团队有专人负责 |
+You launched an ambassador program. Three applications came in. One ghosted after week two. Should you lower the bar? Offer more perks? Mass-DM influencers? This playbook replaces the guessing with an operating system. The core reframe: an ambassador is not a swag-rewarded brand promoter — the real contract is **mutual achievement**. You help users build personal influence (and eventually a path to monetize it); they drive your product's global expansion through the user → content → product flywheel.
 
-### 产品阶段判断
+### What's Inside
 
-| 阶段 | 适合？ | 策略 |
-|-|-|-|
-| 冷启动（<PMF） | ❌ | 先找100个深度用户 |
-| 成长期 | ⚠️ | 5-10名种子大使，无考核 |
-| 增长期 | ✅ | 正式计划+积分体系 |
-| 成熟期 | ✅✅ | 全生态+Affiliate |
+- **Pre-launch readiness checklist** — 6 conditions that must all be true before starting (including: your own team uses the product in its daily workflow)
+- **6-step community setup SOP** — platform selection (Discord / Slack / Telegram / Lark) → rules → admin standards → sentiment monitoring → wiki → baseline metrics
+- **Recruitment system** — A+B qualification criteria, application form design, scoring rubric
+- **4-tier progression** — Bronze → Silver → Gold → Platinum with point thresholds
+- **5-pillar incentive framework** — product quality → beta access → founder access → KOL path → full engagement
+- **Churn early-warning system + retention playbook**
+- **Event operations SOP** — 6 event types, full lifecycle each
+- **Health metrics dashboard** — 6 core KPIs + 5 ambassador-specific indicators
+- **Governance & risk control** — behavior code, escalation matrix
+- **Ready-to-use templates** — recruitment post, welcome email, annual event calendar
 
----
+### When (Not) to Start
 
-## 三、社区搭建六步法
-
-### Step 1: 载体选择
-
-| 载体 | 适用 | 优点 |
-|-|-|-|
-| Discord | 开发者社区 | Bot生态丰富 |
-| Slack | 国际化 | 频道组织成熟 |
-| Telegram | 实时讨论 | 触达快 |
-| 飞书/Lark | 内外融合 | 产品绑定 |
-
-### Step 2-6: 规则 → 管理员 → 舆情监测 → 知识库 → 基线指标
-
-**舆情监测关键洞察：**
-> 所有提到产品的账号都转推/关注。Notion做了爬虫自动监测。**普通用户持续产出 > KOL单次发布。**
+| Product stage | Run a program? | Strategy |
+|:---|:---|:---|
+| Cold start (pre-PMF) | ❌ | Find 100 deep users first |
+| Early growth | ⚠️ | 5–10 seed ambassadors, no quotas |
+| Growth | ✅ | Formal program + points system |
+| Mature | ✅✅ | Full ecosystem + affiliate layer |
 
 ---
 
-## 四、大使招募与管理
+## 中文
 
-### 4.1 准入标准（同时满足A+B）
+### 这是什么？
 
-- **A：** 有活动组织能力
-- **B：** 有内容产出能力（视频/写作/模板 三选一）
+你启动了大使计划，收到 3 份申请，其中一个第二周就消失了。该降门槛？加福利？群发 KOL？这份 SOP 用一套完整运营系统代替拍脑袋。核心认知重构：大使不是发周边就能打发的品牌宣传员——真正的交换是**相互成就**：你帮用户建立个人影响力（最终走通变现路径），用户通过「用户-内容-产品」飞轮驱动你的产品全球扩张。基于 Notion（2000 万用户，大使一手访谈）、AFFiNE（60K stars）、Asana、ClickUp 实战案例。
 
-> 质量 > 数量：Notion大使名义数百人，活跃的只有25%。
+### 内容清单
 
-### 4.2 分级体系
-
-| 等级 | 条件 | 核心权益 |
-|-|-|-|
-| Bronze | 申请即获 | 认可+徽章 |
-| Silver | ≥100分/年 | 优先内测+官方转发 |
-| Gold | ≥300分/年 | 1v1对接+年度活动 |
-| Platinum | ≥600分/年 | 定制支持+大奖+赞助 |
-
-### 4.3 积分获取
-
-| 贡献 | 积分 |
-|-|-|
-| Twitter帖（@官方） | 5 |
-| 教程长文 | 20 |
-| 视频 | 30 |
-| 社区回答（被采纳） | 3 |
-| Bug报告 | 10 |
-| 本地活动 | 50 |
-| 翻译文档 | 15 |
-| 邀请新用户 | 5 |
-
-### 4.4 流失预警
-
-| 信号 | 应对 |
-|-|-|
-| 2月无贡献 | 私信关怀 |
-| 质量下降 | 培训资源 |
-| 未被重视 | 1v1 + 转发 |
-| 被挖角 | 更多资源 |
+- **启动前置条件清单**——6 项全部满足才启动（含：内部全员日常使用自家产品）
+- **社区搭建六步法**——载体选择（Discord / Slack / Telegram / 飞书）→ 规则 → 管理员标准 → 舆情监测 → 知识库 → 基线指标
+- **大使招募系统**——A+B 资质标准、申请表设计、评分 rubric
+- **四级晋升体系**——Bronze → Silver → Gold → Platinum，积分门槛驱动
+- **五支柱激励框架**——产品力 → Beta 内测 → 创始人直接对话 → KOL 成长路径 → 深度参与
+- **流失预警 + 留存剧本**、**六类活动运营 SOP**、**健康度指标看板**、**治理与风控**（行为准则、升级矩阵）
+- **即用模板**——招募帖、欢迎邮件、年度活动日历
 
 ---
 
-## 五、五大激励支柱（Notion真实洞察）
+## Repository Layout
 
-| # | 类型 | 说明 |
-|-|-|-|
-| 1 | 产品真的好 | 所有激励前提 |
-| 2 | Beta优先 | "内部人"感 |
-| 3 | 创始人对话 | 最高级激励 |
-| 4 | 帮成为KOL | 官方转发+Announce |
-| 5 | 全部转推 | 激励每个创作者 |
+- `SKILL.md` — the full operating playbook (中文主文档)
+- `references/en/README.md` · `references/ja/README.md` · `references/ko/README.md` — English / 日本語 / 한국어 editions
 
-> ⚠️ 产品不行一切免谈。
+## License
+
+MIT-0 — free to use, modify, and redistribute. No attribution required.
 
 ---
 
-## 六、活动运营
-
-| 类型 | 规模 | 频率 |
-|-|-|-|
-| Workshop | 20-100人 | 月1-2次 |
-| AMA | 不限 | 季度1次 |
-| 用户分享 | 50-200人 | 月1次 |
-| 大使Seminar | 10-20人 | 周/双周 |
-| Meetup | 10-50人 | 按需 |
-| 黑客松 | 不限 | 半年1次 |
-
----
-
-## 七、健康度指标
-
-| 类别 | 指标 | 目标 |
-|-|-|-|
-| 增长 | 总成员 | 月+15% |
-| 活跃 | WAU | ≥30% |
-| 内容 | 周UGC | ≥10条 |
-| 支持 | 响应 | ≤24h |
-| 大使活跃率 | — | ≥25% |
-| 流失率 | — | ≤20%/年 |
-
----
-
-## 八、治理与风控
-
-| 级别 | 行为 | 处理 |
-|-|-|-|
-| 轻度 | 首次违规 | 私下沟通 |
-| 中度 | 重复违规 | 暂停1月 |
-| 重度 | 虚假/骚扰 | 即时取消 |
-| 极度 | 违法/欺诈 | 法律追诉 |
-
----
-
-## 九、Notion 核心洞察 Top 10
-
-1. 产品未可用前不推广大使计划
-2. 内部全员使用 = 商业化起步信号
-3. 大使本质是"免费外包"但有价值观包装
-4. Roadmap可画饼但必须按时完成
-5. 所有品牌提及都应转推/关注
-6. 做爬虫自动监测品牌提及
-7. 准入：A（活动组织）+ B（内容产出）同时满足
-8. 名义数百人活跃只有25%
-9. 树立标杆→给其他人明方向
-10. 最强激励：创始人直接对话
-
----
-
-*Built from Notion (20M users), AFFiNE (60K stars), Asana Ambassador, ClickUp Verified. By @WeiYipei.*
+*By Iris (生姜 Iris) · ex-COO @ AFFiNE · More playbooks: [gingiris.tools](https://gingiris.tools) · [ClawHub](https://clawhub.ai/gingiris-1031)*
